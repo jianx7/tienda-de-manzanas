@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <!-- Header -->
+     <header>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Carrito</a>
+            <a href="#">Login</a>
+        </nav>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Productos</a>
+                </li>
+                <li>
+                    <a href="#">Carrito</a>
+                </li>
+                <li>
+                    <a href="#">LogIn</a>
+                </li>
+            </ul>
+        </nav>
+     </header>
+
+     <!-- Conenido principal (main)-->
+      <main>
+        <!-- aquí va el form-->
+         <h2>Sign up</h2>
+         <form>
+            <div>
+                <label for="fname">First name</label>
+                <br>
+                <input type="text" name="fname" id="fname" placeholder="First name">
+            </div>
+            <br> <!-- Salto de línea -->
+            <div>
+               <label for="inputEmail">Email</label>
+               <br>
+               <input type="email" name="inputEmail" id="inputEmail" placeholder="user@correo.com">
+            </div>
+            <br> <!-- salto de linea -->
+            <div>
+                <label for="cname">Country name</label>
+                <br>
+                <select name="cname" id="cname">
+                    <option value="mx">México</option>
+                    <option value="col">Colombia</option>
+                    <option value="arg">Argentina</option>
+                    <option value="per">Perú</option>
+                    <option value="chi">Chile</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <p>Gender</p>
+                <input type="radio" name="gender" id="male" value="Male">
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" name="gender" id="female" value="Female">
+                <label for="female">Female</label>
+                <br>
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other">Other</label>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" name="legalPolicy" id="legalPolicy" value="true">
+                <label for="legalPolicy"> Aceptar términos </label>
+            </div>
+            <div>
+                <input type="checkbox" name="recibirCorreos" id="recibirCorreos" value="true">
+                <label for="recibirCorreos"> Recibir correos? </label>
+            </div>
+            <br>
+            <div>
+                <!-- <input type="submit" value="Sing Up"> -->
+                <button type="submit">Sing Up</button>
+            </div>
+        </form>
+      </main>
+      <hr>
+      <!--Pie de página-->
+      <footer>
+        <h5> Todos los derechos reservados Tienda de Manzanas 🍎</h5>
+      </footer>
+
+     <a href="../index.html">⬅️Volvel al Inicio</a>
+</body>
+</html>
